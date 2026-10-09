@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap");
 
 /* ---------- Design tokens ----------
    Subject: a private, personal writing space — closer to a bound notebook
@@ -51,14 +50,14 @@ body,
 body {
   background: var(--paper);
   color: var(--ink);
-  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "Source Serif 4", Georgia, serif;
+  font-family: Georgia, "Times New Roman", serif;
   color: var(--ink);
   margin: 0;
 }
@@ -89,7 +88,7 @@ textarea {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-family: "Source Serif 4", serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 15px;
   letter-spacing: 0.02em;
   color: var(--ink-soft);
@@ -153,7 +152,7 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Source Serif 4", serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 22px;
 }
 
@@ -507,7 +506,7 @@ textarea {
 .note-title-input {
   border: none;
   background: none;
-  font-family: "Source Serif 4", serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 26px;
   font-weight: 600;
   width: 100%;
